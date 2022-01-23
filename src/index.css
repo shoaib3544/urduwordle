@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2');
+
+body {
+    direction: rtl;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+}
+
+
+.keyboard {
+    direction: ltr;
+}
+
+
+.delete-key {
+    color:maroon;
+    padding: 0.3em;
+}
+.enter-key{
+    color:white;
+    background-color: darkgreen !important;
+    padding: 0.3em;
+}
+:focus { outline: none; }
+.flip {    
+  transform: scale(-1, 1);
+  transform-origin: center;
+}
